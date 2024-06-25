@@ -1,0 +1,23 @@
+{
+  "name": "todolist-react",
+  "version": "1.0.0",
+  "description": "Simple todolist app: TypeScript, MUI, React, WebSockets",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon \"server/index.ts\"",
+    "client": "npm run start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "apexory",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.1.4",
+    "tsc": "^2.0.4"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "ts-node": "^10.9.2"
+  }
+}
