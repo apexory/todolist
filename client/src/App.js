@@ -148,11 +148,11 @@ function App() {
 
       <div>
         <div style={{ display: 'flex', alignItems: 'center', gap: '10px', position: 'absolute', bottom: '15px', left: '15px' }}>
-          <Button size="small" color="inherit" variant="outlined">by apexory</Button>
+          <Button href="https://github.com/apexory" size="small" color="inherit" variant="outlined">by apexory</Button>
         </div>
 
         <div style={{ display: 'flex', alignItems: 'center', gap: '10px', position: 'absolute', bottom: '15px', right: '15px' }}>
-          <Button startIcon={<GitHubIcon />} size="small" color="inherit" variant="outlined">my github</Button>
+          <Button href="https://github.com/apexory/todolist" startIcon={<GitHubIcon />} size="small" color="inherit" variant="outlined">my github</Button>
         </div>
 
         <div style={{ display: 'flex', alignItems: 'center', gap: '10px', position: 'absolute', top: '10px', right: '10px' }}>
