@@ -1,0 +1,31 @@
+.task * { transition: 0.3s all; }
+.taskIconLeft { left: -30px; }
+.taskIconRight { right: -30px; }
+
+.plannedTasks {
+    overflow: hidden;
+    &:hover {
+        .task div { padding-right: 18px; }
+        .taskIconLeft { left: 0px; }
+        .taskIconRight { right: 0px; }
+    }
+}
+
+.makingTasks {
+    overflow: hidden;
+    &:hover {
+        .task span { padding-left: 18px; }
+        .task div { padding-right: 18px; }
+        .taskIconLeft { left: 0px; }
+        .taskIconRight { right: 0px; }
+    }
+}
+
+.completedTasks {
+    overflow: hidden;
+    &:hover {
+        .task span { padding-left: 18px; }
+        .taskIconLeft { left: 0px; }
+        .taskIconRight { right: 0px; }
+    }
+}

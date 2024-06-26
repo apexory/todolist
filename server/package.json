@@ -1,0 +1,11 @@
+{
+    "name": "todolist-react-server",
+    "version": "1.0.0",
+    "description": "Simple todolist app: TypeScript, MUI, React, WebSockets",
+    "scripts": {
+      "start": "ts-node \"index.ts\""
+    },
+    "author": "apexory",
+    "license": "ISC"
+  }
+  
